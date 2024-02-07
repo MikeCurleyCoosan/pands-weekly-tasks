@@ -3,6 +3,7 @@
 
 #Modify the program to deal with account numbers of any length (comment your assumptions)
 #Assumptions: I have assumed that the account number is at least 10 digits long and the last 4 digits are alwasys shown
+#Futher changes to follow.....
 
 #Author: Michael Curley
 
@@ -15,7 +16,7 @@ isInt = type(accountNumber)
 if isInt == int:
     asString = str(accountNumber) #Convert the integer to a string
     lengthOfInput = len(asString) #And get the length of the string
-    """print(lengthOfInput)""" #testing 
+    """print(lengthofinput)""" #testing 
 elif isInt != int: #If it isnt an integer, ask again for a 10 digit number
     accountNumber = input("Please enter your account number: ")
     isInt = type(accountNumber)

@@ -2,6 +2,9 @@
 #of the following calculation. At each step calculate the next value by taking the current value and, if it is even,
 #divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
 
+#Modification: After looking into lists on the RealPython website and the DataCamp website, I have modified this program
+#to include a list.
+
 number = int(input('Please enter a positive number: ')) #Ask user for positive number 
 allNumbers = [] #Create a list to store the numbers
 
@@ -9,7 +12,7 @@ if number < 0: #If number given is not positive
     print('That is not a positive number, Please try again: ') #Tell the user the number entered is not positive
     number = int(input('Please enter a positive number: ')) # And ask again for positive number
 
-print(number) #Print the first collatz series number
+allNumbers.append(number) #This is the first number in the collatz series
 
 while number !=1: #The series ends when it reaches 1
     if (number % 2) == 0: #Check if number is even

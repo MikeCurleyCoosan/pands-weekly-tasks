@@ -29,9 +29,22 @@ def sqrt(n,i):
         i -= 1
     return x
 
+#The following is another example using the above formula to find the square root using Newton's method
+#This method is used on Stack Overflow: https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm
+#The difference is that the following method defines the variable differently and keeps iterating until the new guess is the same as the old guess
+
+def my_sqrt(n):
+    approx = n/2
+    closer = (approx + n/approx)/2
+    while closer != approx:
+        approx = closer
+        closer = (approx + n/approx)/2
+    return approx
+
+
+
 #Main program
 n = float(input("Please enter a positive number: "))
 i = int(input("Please enter the number of iterations: "))
 print(f"The square root of {n} with {i} iterations is approximately {sqrt(n, i)}")
-
-
+print(f"The square root of {n} using the second method is {my_sqrt(n)}")

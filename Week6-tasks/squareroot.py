@@ -12,7 +12,7 @@
 #To start we can use the following formula x_new = 0.5 * (x + n / x) where x is starting point, and n is the number we are taking the square root of.
 
 #This approximation is good for positive whole numbers, but not for floating point numbers. This method is explained here:
-# https://www.youtube.com/watch?v=gNb-H50zmRY
+#https://www.youtube.com/watch?v=gNb-H50zmRY
 
 #The following is a snippet from the video:
 # The idea is to start with an initial guess which is not very far from the actual square root.
@@ -24,22 +24,22 @@ def sqrt(n,i):
     #Initial guess for the square root
     x = n/2 #An approximate guess would be half of the number
     #The formula to find the square root
-    while i > 0:
-        x = 0.5 * (x + n / x)
-        i -= 1
-    return x
+    while i > 0:    #Keep iterating until the number of iterations is 0
+        x = 0.5 * (x + n / x)   #The formula to find the square root using Newton's method
+        i -= 1  #Decrement the number of iterations
+    return x    #Return the square root
 
 #The following is another example using the above formula to find the square root using Newton's method
 #This method is used on Stack Overflow: https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm
 #The difference is that the following method defines the variable differently and keeps iterating until the new guess is the same as the old guess
 
 def my_sqrt(n):
-    approx = n/2
-    closer = (approx + n/approx)/2
-    while closer != approx:
-        approx = closer
-        closer = (approx + n/approx)/2
-    return approx
+    approx = n/2 #An approximate guess would be half the number as before
+    closer = (approx + n/approx)/2 #The formula to find the square root using Newton's method
+    while closer != approx: #Keep iterating until the new guess is the same as the old guess
+        approx = closer #The new guess becomes the old guess
+        closer = (approx + n/approx)/2  #The formula to find the square root using Newton's method
+    return approx   #Return the square root
 
 
 

@@ -19,18 +19,19 @@
 # Then we use this initial guess to find an even better guess.
 # We keep doing this until we are as close as we want to be."
 
-def sqrt(n):
+def sqrt(n,i):
+
     #Initial guess for the square root
-    x = n
-    #The number of iterations
-    i = 20
+    x = n/2 #An approximate guess would be half of the number
     #The formula to find the square root
     while i > 0:
         x = 0.5 * (x + n / x)
         i -= 1
     return x
 
-#Test the function with a number
-print(sqrt(16.12))
+#Main program
+n = float(input("Please enter a positive number: "))
+i = int(input("Please enter the number of iterations: "))
+print(f"The square root of {n} with {i} iterations is approximately {sqrt(n, i)}")
 
 

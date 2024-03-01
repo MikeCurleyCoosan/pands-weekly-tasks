@@ -24,22 +24,19 @@ The Hello World program is a traditional first step when learing a new programmi
 >2. Add the two amounts.
 >3. Print out the amount in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
 
-```python
 ```
-python .\bank.py
+$ python bank.py
 ```
-User input :
+User Input:
 ```
-Please enter your first amount in cents: 65
-Please enter your second amount in cents: 180
+Enter amount1(in cent): 65
+Enter amount2(in cent): 180
 ```
-Output :
-
+Terminal Output:
 ```
-The total amount of money is €2.45
+The sum of these is €2.45
 ```
 
-```
 
 <p style="background:black">
 <code style="background:black;color:white">C:\Users\Mike> pip3 install roughviz</code>

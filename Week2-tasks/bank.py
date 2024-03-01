@@ -20,8 +20,8 @@ The sum of these is €2.45
 
 #First attempt using a float value after reading in two amounts in cents as integers.
 
-a = int(input("Please enter amount in cents: "))
-b = int(input("Please enter amoutn in cents: "))
+a = int(input("Enter amount1(in cent): "))
+b = int(input("Enter amount2(in cent): "))
 #If we add these values and divide by 100 we get a float result therefore we need to declare our result as a float
 result = float((a + b)/100)
 #Format our answer to two decimal places.

@@ -8,7 +8,7 @@
 #Author: Michael Curley
 
 #Read in the account number
-accountNumber = input("Please enter your account number: ")
+accountNumber = input("Please enter a 10 digit account number: ")
 #Check what type the input is
 isInt = type(accountNumber)
 

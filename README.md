@@ -50,6 +50,17 @@ The sum of these is €2.45
 >Write a python program called accounts.py that reads in a 10 character account number and outputs the
 >account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 
+$ python accounts.py
+```
+User Input:
+```
+Please enter a 10 digit account number: 1234567890
+```
+Terminal Output:
+```
+xxxxxx7890
+```
+
 - - - - 
 
 ### ***Week 04 - Collatz***

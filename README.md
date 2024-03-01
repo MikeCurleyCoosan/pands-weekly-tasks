@@ -37,11 +37,6 @@ Terminal Output:
 The sum of these is €2.45
 ```
 
-
-<p style="background:black">
-<code style="background:black;color:white">C:\Users\Mike> pip3 install roughviz</code>
-</p>
-
 - - - - 
 ### ***Week 03 - Accounts***
 

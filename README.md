@@ -6,6 +6,8 @@
 
 * [Week 01 - Hello World](#week-01---hello-world)
 * [Week 02 - Bank](#week-02---bank)
+* [Week 03 - Accounts](#week-03---accounts)
+* [Week 04 - Collats](#week-04---collatz)
 
 
 ### ***Week 01 - Hello World***
@@ -29,5 +31,13 @@ The Hello World program is a traditional first step when learing a new programmi
 >the last 4 characters (with the other other characters replaced with Xs).
 >Write a python program called accounts.py that reads in a 10 character account number and outputs the
 >account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
+
+- - - - 
+
+### ***Week 04 - Collatz***
+
+>Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
+>tAt each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+>Have the program end if the current value is one.
 
 - - - - 

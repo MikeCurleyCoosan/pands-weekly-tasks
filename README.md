@@ -15,9 +15,19 @@ The Hello World program is a traditional first step when learing a new programmi
 - - - -
 ### ***Week 02 - Bank***
 
->Write a program called bank.py which can do the following:
+>When Banks are storing currency figures, they store them as integers (usually in cent).This is to avoid rounding errors. 
+>Write a program called bank.py
+>The program should
 >1. Prompt the user and read in two money amounts (in cent).
 >2. Add the two amounts.
 >3. Print out the amount in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
+
+- - - - 
+### ***Week 03 - Accounts***
+
+>Bank account numbers can be stored as 10 character strings, for security reasons some applications only display 
+>the last 4 characters (with the other other characters replaced with Xs).
+>Write a python program called accounts.py that reads in a 10 character account number and outputs the
+>account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 
 - - - - 

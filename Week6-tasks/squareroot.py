@@ -44,15 +44,20 @@ def my_sqrt(n):
 
 
 #Main program
-n = float(input("Please enter a positive number: "))
-while n < 1:    #Keep asking for a number until a positive number is entered
-        print("That was not a positive number. Please try again.")
+    try:    #Try to get the number from the user
+        n = float(input("Please enter a positive number: "))   #Get the number from the user
+        while n < 1:    #Keep asking for a number until a positive number is entered
+            print("That was not a positive number. Please try again.")
+            n = float(input("Please enter a positive number: "))
+    except: #If the user enters a string, catch the exception and ask for a number again
+        print("That was not a number. Please try again.")
         n = float(input("Please enter a positive number: "))
 
+
 i = int(input("Please enter the number of iterations you would like the program to undertake: "))
-while i is not int:
+while type(i) != int:
     print("That was not a number. Please try again.")
     i = int(input("Please enter the number of iterations you would like the program to undertake: "))
-    
+
 print(f"The square root of {n} with {i} iterations is approximately {sqrt(n, i)}")
 print(f"The square root of {n} using the second method is {my_sqrt(n)}")

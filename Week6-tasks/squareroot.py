@@ -44,20 +44,28 @@ def my_sqrt(n):
 
 
 #Main program
-    try:    #Try to get the number from the user
+#https://pynative.com/python-check-user-input-is-number-or-string/
+while True: #Keep asking for a number until a positive number is entered        
+    try:    #If the input is not a number, ask for a number again
         n = float(input("Please enter a positive number: "))   #Get the number from the user
-        while n < 1:    #Keep asking for a number until a positive number is entered
-            print("That was not a positive number. Please try again.")
+        while n < 1:   #Keep asking for a number until a positive number is entered
+            print("That was not a positive number, it was a negative number. Please try again.")
             n = float(input("Please enter a positive number: "))
-    except: #If the user enters a string, catch the exception and ask for a number again
-        print("That was not a number. Please try again.")
-        n = float(input("Please enter a positive number: "))
+    except ValueError:  #If a string is entered, ask for a number again
+        print("That was not a number, it was a char or a string. Please try again.")
+        continue
+    break
 
-
-i = int(input("Please enter the number of iterations you would like the program to undertake: "))
-while type(i) != int:
-    print("That was not a number. Please try again.")
-    i = int(input("Please enter the number of iterations you would like the program to undertake: "))
+while True:
+    try:   
+        i = int(input("Please enter the number of iterations you would like the program to undertake: "))
+        while i < 1:
+            print("That was not a positive number. Please try again.")
+            i = int(input("Please enter the number of iterations you would like the program to undertake: "))
+    except ValueError:
+        print("That was not a number, it was a char or a string. Please try again.")
+        continue
+    break
 
 print(f"The square root of {n} with {i} iterations is approximately {sqrt(n, i)}")
 print(f"The square root of {n} using the second method is {my_sqrt(n)}")

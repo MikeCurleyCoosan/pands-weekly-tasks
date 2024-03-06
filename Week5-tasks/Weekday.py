@@ -12,7 +12,7 @@ print(day)
 
 #If the day is a weekday, print that it is a weekday
 if day == "Saturday" or day == "Sunday":
-    print("Its a weekend, yah")
+    print("It is the Weekend, yah!")
     
 else:
     print("Yes, unfortunately today is a Weekday.")

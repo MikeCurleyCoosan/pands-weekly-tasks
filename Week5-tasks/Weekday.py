@@ -1,7 +1,7 @@
 #Write a program that outputs whether or not today is a weekday. The program should be called weekday.py
 #Authon: Michael Curley
 
-import datetime
+import datetime #The module datetime provides classed for manipulating dates and times
 
 #Get the current date
 currentDate = datetime.datetime.now() #datetime.datetime.now() returns the current date and time

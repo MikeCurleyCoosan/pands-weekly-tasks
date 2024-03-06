@@ -23,4 +23,8 @@ try:
         print(f"The file {FILENAME} contains {count} 'e's") #print the number of 'e's in the file
 except FileNotFoundError:
     print(f"The file {FILENAME} was not found")
+    sys.exit()
+except NotAFilenameError:
+    print(f"The file {FILENAME} is not a valid filename")
+    sys.exit()
 

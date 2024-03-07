@@ -8,6 +8,7 @@
 * [Week 02 - Bank](#week-02---bank)
 * [Week 03 - Accounts](#week-03---accounts)
 * [Week 04 - Collats](#week-04---collatz)
+* [Week 05 - Weekday](#week-05---weekday)
 
 
 ### ***Week 01 - Hello World***
@@ -78,3 +79,30 @@ Terminal Output:
 ```
 
 - - - - 
+
+### ***Week 05 - Weekday***
+
+>Write a program that outputs whether or not today is a weekday. The program should be called weekday.py
+>Search the web to find out how you work out what day it is in python
+
+
+Example of program running on a Thursday is given below
+
+```
+$ python weekday.py
+```
+```
+Yes, unfortunately today is a Weekday
+```
+Example of program running on a Saturday is as follows
+```
+$ python weekday.py
+```
+```
+It is the Weekend, yah!
+```
+
+- - - - 
+
+
+

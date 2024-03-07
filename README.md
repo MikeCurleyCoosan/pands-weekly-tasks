@@ -9,6 +9,7 @@
 * [Week 03 - Accounts](#week-03---accounts)
 * [Week 04 - Collats](#week-04---collatz)
 * [Week 05 - Weekday](#week-05---weekday)
+* [Week 06 - Square root](#week-06---squareroot)
 
 
 ### ***Week 01 - Hello World***
@@ -105,4 +106,21 @@ It is the Weekend, yah!
 - - - - 
 
 
+### ***Week 06 - Squareroot***
 
+>Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+>You should create a function called sqrt() that does this.
+
+```
+$ python squareroot.py
+```
+User Input:
+```
+Please enter a positive number: 14.5
+```
+Terminal Output:
+```
+The square root of 14.5 is approx. 3.8
+```
+
+- - - - 

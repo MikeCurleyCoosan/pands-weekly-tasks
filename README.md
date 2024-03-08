@@ -128,7 +128,7 @@ The square root of 14.5 is approx. 3.8
 ```
 <details>
             <summary> Running the program</summary>
-![Week6-tasks](Week6-tasks.PNG)
+<img>Week6-tasks.png</img>
 </details>
 
 - - - - 

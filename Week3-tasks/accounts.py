@@ -8,7 +8,7 @@
 #Author: Michael Curley
 
 #Read in the account number
-accountNumber = input("Please enter a 10 digit account number: ")
+accountNumber = int(input("Please enter a 10 digit account number: "))
 #Check what type the input is
 isInt = type(accountNumber)
 
@@ -18,13 +18,13 @@ if isInt == int:
     lengthOfInput = len(asString) #And get the length of the string
     """print(lengthofinput)""" #testing 
 elif isInt != int: #If it isnt an integer, ask again for a 10 digit number
-    accountNumber = input("Please enter your account number: ")
+    accountNumber = int(input("Please enter your account number: "))
     isInt = type(accountNumber)
 
 #While the string is less than 10 digits long, ask user for 10 digit number
 while lengthOfInput <10:
     print("That account number is less than 10 numbers")
-    accountNumber = input("Please enter your account number: ")
+    accountNumber = int(input("Please enter your account number: "))
     asString = str(accountNumber)
     lengthOfInput = len(asString)
     

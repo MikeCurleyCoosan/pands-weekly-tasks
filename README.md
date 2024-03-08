@@ -15,7 +15,7 @@
 
 ### ***Week 01 - Hello World***
 
-The Hello World program is a traditional first step when learing a new programming language. It allows us to confirm that we have downloaded and setup the tools that we will require over the duration of the course of study, such as cmder and VScode. We created a simple program called helloWorld.py, which basically output the words "Hello World" in the terminal window once the program was run.
+The Hello World program is a traditional first step when learing a new programming language. It allows us to confirm that we have downloaded and setup the tools that we will require over the duration of the course of study, such as [cmder](https://cmder.app/) and [Visual Studio Code](https://code.visualstudio.com/). We created a simple program called helloWorld.py, which basically output the words "Hello World" in the terminal window once the program was run.
 
 ![Week1-tasks](Images/Week1-tasks.PNG)
 
@@ -92,6 +92,16 @@ xxxxxx7890
 >At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 >Have the program end if the current value is one.
 
+The above problem is known as the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), one of the most famous unsolved problems in mathematics. The conjecture asks whether repeating two simple arithmetic operations will eventually transfrom every positive integer into 1.
+
+The user is asked "Please enter a positive integer" to start, which will be stored in the variable number. A if statement is used to confirm that the user has actually entered a positive number. If the user has not entered a positive integer, the program will prompt the user "That is not a positive number, Please try again", and ask the user to "Please enter a positive number" again. 
+
+Once a positive integer has being entered this will be appended to our list allNumber, as the start of our collatz series. 
+
+A while statement is then used to complete either of the two mathematical calculations on the current number while the number is not equal to 1, and apend the new result to our list. The result will be stored in our variable number, and the program will continue until the result of the calculations in the if/else loop result in 1.
+
+When we reach 1 all the numbers in the list which make up our collatz conjecture for the number the user entered, will be printed to the screen, along with the message "You have reached one, that is the end of the series. Thank you for playing".
+
 ![Week4-tasks](Images/Week4-tasks.PNG)
 
 <details>
@@ -123,7 +133,7 @@ Terminal Output:
 >Write a program that outputs whether or not today is a weekday. The program should be called weekday.py
 >Search the web to find out how you work out what day it is in python
 
-The [datetime module](https://docs.python.org/3/library/datetime.html#module-datetime) was used in order to manipulate the date and time in this programme. A good reference on using the module to manipulate the date and time can be found on the [w3resourse.com](https://www.w3resource.com/python-exercises/python-basic-exercise-3.php) website. The program does not require any input from the user, it determines the current date, and then determines what day of the week it is from this. The module can return the current day in various forms, but I have chosen to return the day using its full Weekday name. An if statement then determines whether the day is a weekday or a day of the weekend. The program has been tested on a weekday and during the weekend to ensure that it works in both cases.
+The [datetime module](https://docs.python.org/3/library/datetime.html#module-datetime) was used in order to manipulate the date and time in this programme. A good reference on using the module to manipulate the date and time can be found on the [note.nkmk.me](https://note.nkmk.me/en/python-datetime-now-today/) website. The program does not require any input from the user, it determines the current date, and then determines what day of the week it is from this. The module can return the current day in various forms, but I have chosen to return the day using its full Weekday name. An if statement then determines whether the day is a weekday or a day of the weekend. The program has been tested on a weekday and during the weekend to ensure that it works in both cases.
 
 ![Week5-tasks](Images/Week5-tasks.PNG)
 

@@ -126,6 +126,10 @@ Terminal Output:
 ```
 The square root of 14.5 is approx. 3.8
 ```
-
+<details>
+            <summary> Running the program</summary>
+            <p>
 ![Week6-tasks](Week6-tasks.PNG)
+</p>
+</details>
 - - - - 

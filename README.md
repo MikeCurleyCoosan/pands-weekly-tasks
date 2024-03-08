@@ -79,7 +79,7 @@ Terminal Output:
 10 5 16 8 4 2 1
 ```
 
-![Week4-tasks](Week4-tasks.PNG)
+![Week4-tasks](/pands-weekly-tasks/Images/Week4-tasks.PNG)
 
 - - - - 
 
@@ -87,10 +87,6 @@ Terminal Output:
 
 >Write a program that outputs whether or not today is a weekday. The program should be called weekday.py
 >Search the web to find out how you work out what day it is in python
-
-
-
-
 
 ![Week5-tasks](Week5-tasks.PNG)
 

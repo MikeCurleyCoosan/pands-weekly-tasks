@@ -64,7 +64,7 @@ xxxxxx7890
 ### ***Week 04 - Collatz***
 
 >Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
->tAt each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+>At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 >Have the program end if the current value is one.
 
 ```
@@ -115,6 +115,12 @@ It is the Weekend, yah!
 >Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 >You should create a function called sqrt() that does this.
 
+![Week6-tasks](Week6-tasks.PNG)
+
+<details>
+            <summary> Running the program</summary>
+<p>
+           
 ```
 $ python squareroot.py
 ```
@@ -126,11 +132,7 @@ Terminal Output:
 ```
 The square root of 14.5 is approx. 3.8
 ```
-<details>
-            <summary> Running the program</summary>
-<p>
-            ![Week6-tasks](Week6-tasks.PNG)
-            <img>Week6-tasks.PNG</img>
+
 </p>
 
 </details>

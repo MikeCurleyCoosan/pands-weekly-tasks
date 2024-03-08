@@ -79,7 +79,7 @@ Terminal Output:
 10 5 16 8 4 2 1
 ```
 
-![Week4-tasks](pands-weekly-tasks/Images/Week4-tasks.PNG)
+![Week4-tasks](Images/Week4-tasks.PNG)
 
 - - - - 
 

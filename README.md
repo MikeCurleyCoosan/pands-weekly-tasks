@@ -79,6 +79,8 @@ Terminal Output:
 10 5 16 8 4 2 1
 ```
 
+![Week4-tasks](Week4-tasks.PNG)
+
 - - - - 
 
 ### ***Week 05 - Weekday***
@@ -103,6 +105,8 @@ $ python weekday.py
 It is the Weekend, yah!
 ```
 
+![Week5-tasks](Week5-tasks.PNG)
+
 - - - - 
 
 
@@ -123,4 +127,5 @@ Terminal Output:
 The square root of 14.5 is approx. 3.8
 ```
 
+![Week6-tasks](Week6-tasks.PNG)
 - - - - 

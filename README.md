@@ -31,7 +31,9 @@ The Hello World program is a traditional first step when learing a new programmi
 >2. Add the two amounts.
 >3. Print out the amount in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
 
-The user is asked "Enter ammount1(in cent)", and then to "Enter amount 2(in cent). To ensure we are not recieving string inputs or floating point inputs the values are cast to integers in pyton using the [int()](https://www.w3schools.com/python/python_casting.asp). The two inputs are then added together to find the total amount in cents, which will be converted to euros by either of two methods. The first method is not recommended as dealing with floats in python can produce some undesirable results. 
+The user is asked "Enter amount1(in cent)", and then to "Enter amount 2(in cent). To ensure we are not recieving string inputs or floating point inputs the values are cast to integers in pyton using the [int()](https://www.w3schools.com/python/python_casting.asp). The two inputs are then added together to find the total amount in cents, which will be converted to euros by either of two methods. The first method is not recommended as dealing with floats in python can produce some undesirable results. 
+
+Method 2 is the recommended way of dealing with this type of problem in python. Here we are using [floor division](https://stackoverflow.com/questions/183853/what-is-the-difference-between-and-when-used-for-division), and the [modulus operator](https://realpython.com/python-modulo-operator/). The floor division divides the first amount by the second amount and rounds the result down to the nearest whole number. This will give us our euro part of the solution. The modulus operator will return the remainder of dividing the first amount by the second amount, and will therefore compute the cent equivalent. 
 
 ![Week2-tasks](Images/Week2-tasks.PNG)
 

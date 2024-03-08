@@ -91,6 +91,14 @@ Terminal Output:
 
 Example of program running on a Thursday is given below
 
+
+![Week5-tasks](Week5-tasks.PNG)
+
+
+<details>
+            <summary>Running the program</summary>
+
+<p>
 ```
 $ python weekday.py
 ```
@@ -104,8 +112,10 @@ $ python weekday.py
 ```
 It is the Weekend, yah!
 ```
+</p>
+</details>
 
-![Week5-tasks](Week5-tasks.PNG)
+
 
 - - - - 
 
@@ -118,7 +128,7 @@ In order to be able to complete this program, we had to become familiar with the
 
 Ultimately, to find the square root of a positive floating point number required implementing the mathematical formula which has being derived to approximate the square root of any positive number.
 
-A while loop has being used to ensure that a positive number(n) is entered, and a try/catch block is used to ensure that the program can deal with negitive numbers and strings. The program is designed to ask the user for the number of iterations(i) that they would like to approximate the square root to. The more iterations the more accurate 
+A while loop has being used to ensure that a positive number(n) is entered, and a try/catch block is used to ensure that the program can deal with negitive numbers and strings. The program is designed to ask the user for the number of iterations(i) that they would like to approximate the square root to. You can enter as many iterations as you would like. Perhaps, another approach that could have being taken would have being to keep approximating the root until the new approximation is equal to the last approximation within a number of decimal places. 
 
 ![Week6-tasks](Week6-tasks.PNG)
 
@@ -147,10 +157,12 @@ The square root of 14.5 is approx. 3.8
 
 ### ***Week 07 - Es***
 
->WWrite a program that reads in a text file and outputs the number of e's it contains.
+>Write a program that reads in a text file and outputs the number of e's it contains.
 >The program should take the filename from an argument on the command line.
 
-This program has been designed to read a text file called by the user from the command line. In order to do this we have made the assumption that the file will be in the same directory as the program that is reaing the number of 'e's it contains. I have downloaded a copy of Dante's Divine Comedy and added this to the same diretory as the program for testing purposes. This file is saved as DivineComedy-Dante.txt. The [sys](https://docs.python.org/3/library/sys.html) module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available. The submodule sys.argv deals with command line arguments passed to a Python script. The sys.argv[0] contains the python script name, and therefore the text filename needs to be held in the second argument sys.argv[1].
+This program has been designed to read a text file called by the user from the command line. In order to do this we have made the assumption that the file will be in the same directory as the program that is reaing the number of 'e's it contains. I have downloaded a copy of Dante's Divine Comedy and added this to the same diretory as the program for testing purposes. This file is saved as DivineComedy-Dante.txt. The [sys module](https://docs.python.org/3/library/sys.html) module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available. The submodule sys.argv deals with command line arguments passed to a Python script. The sys.argv[0] contains the python script name, and therefore the text filename needs to be held in the second argument sys.argv[1]. I found the [Tutorials Point](#https://www.tutorialspoint.com/python/python_command_line_arguments.htm) website an invaluable resourse when completing this task. The website describe the sys module in great details.
+
+We need to import the sys module into our program in order to use its functionality. 
 
 
 

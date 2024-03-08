@@ -1,5 +1,7 @@
 # pands-weekly-tasks 2023
 
+## Student Name: Michael Curley
+
 ![ATU Image](https://www.atu.ie/sites/default/files/styles/homepage_hero/public/2022-03/GMIT-Galway-Campus.jpg?itok=JshYufwh)
 
 ## Table of Contents.
@@ -28,6 +30,8 @@ The Hello World program is a traditional first step when learing a new programmi
 >1. Prompt the user and read in two money amounts (in cent).
 >2. Add the two amounts.
 >3. Print out the amount in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
+
+The user is asked "Enter ammount1(in cent)", and then to "Enter amount 2(in cent). To ensure we are not recieving string inputs or floating point inputs the values are cast to integers in pyton using the [int()](https://www.w3schools.com/python/python_casting.asp). The two inputs are then added together to find the total amount in cents, which will be converted to euros by either of two methods. The first method is not recommended as dealing with floats in python can produce some undesirable results. 
 
 ![Week2-tasks](Images/Week2-tasks.PNG)
 

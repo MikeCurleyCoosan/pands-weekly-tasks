@@ -88,7 +88,7 @@ Terminal Output:
 >Write a program that outputs whether or not today is a weekday. The program should be called weekday.py
 >Search the web to find out how you work out what day it is in python
 
-![Week5-tasks](Week5-tasks.PNG)
+![Week5-tasks](Images/Week5-tasks.PNG)
 
 
 <details>
@@ -131,7 +131,7 @@ Ultimately, to find the square root of a positive floating point number required
 
 A while loop has being used to ensure that a positive number(n) is entered, and a try/catch block is used to ensure that the program can deal with negitive numbers and strings. The program is designed to ask the user for the number of iterations(i) that they would like to approximate the square root to. You can enter as many iterations as you would like. Perhaps, another approach that could have being taken would have being to keep approximating the root until the new approximation is equal to the last approximation within a number of decimal places. 
 
-![Week6-tasks](Week6-tasks.PNG)
+![Week6-tasks](Images/Week6-tasks.PNG)
 
 <details>
             <summary> Running the program</summary>
@@ -167,7 +167,7 @@ We need to import the sys module into our program in order to use its functional
 
 
 
-![Week7-tasks](Week7-tasks.png)
+![Week7-tasks](Images/Week7-tasks.png)
 
 <details>
             <summary> Running the program</summary>

@@ -89,7 +89,7 @@ Terminal Output:
 >Search the web to find out how you work out what day it is in python
 
 
-Example of program running on a Thursday is given below
+
 
 
 ![Week5-tasks](Week5-tasks.PNG)
@@ -99,6 +99,8 @@ Example of program running on a Thursday is given below
             <summary>Running the program</summary>
 
 <p>
+Example of program running on a Thursday is given below
+
 ```
 $ python weekday.py
 ```
@@ -106,13 +108,16 @@ $ python weekday.py
 Yes, unfortunately today is a Weekday
 ```
 Example of program running on a Saturday is as follows
+
 ```
 $ python weekday.py
 ```
 ```
 It is the Weekend, yah!
 ```
+
 </p>
+
 </details>
 
 

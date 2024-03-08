@@ -67,6 +67,12 @@ xxxxxx7890
 >At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
 >Have the program end if the current value is one.
 
+![Week4-tasks](Images/Week4-tasks.PNG)
+
+<details>
+            <summary>Running the program</summary>
+
+<p>
 ```
 $ python collatz.py
 ```
@@ -79,7 +85,11 @@ Terminal Output:
 10 5 16 8 4 2 1
 ```
 
-![Week4-tasks](Images/Week4-tasks.PNG)
+</p>
+
+</details>
+
+
 
 - - - - 
 
@@ -87,6 +97,8 @@ Terminal Output:
 
 >Write a program that outputs whether or not today is a weekday. The program should be called weekday.py
 >Search the web to find out how you work out what day it is in python
+
+The [datetime module](https://docs.python.org/3/library/datetime.html#module-datetime) was used in order to manipulate the date and time in this programme. A good reference on using the module to manipulate the date and time can be found on the [w3resourse.com](#https://www.w3resource.com/python-exercises/ python-basic-exercise-3.php) website. The program does not require any input from the user, it determines the current date, and then determines what day of the week it is from this. The module can return the current day in various forms, but I have chosen to return the day using its full Weekday name. An if statement then determines whether the day is a weekday or a day of the weekend. The program has been tested on a weekday and during the weekend to ensure that it works in both cases.
 
 ![Week5-tasks](Images/Week5-tasks.PNG)
 

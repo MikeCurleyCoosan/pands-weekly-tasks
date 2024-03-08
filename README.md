@@ -115,6 +115,12 @@ It is the Weekend, yah!
 >Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 >You should create a function called sqrt() that does this.
 
+In order to be able to complete this program, we had to become familiar with the [Newton Method](https://en.wikipedia.org/wiki/Newton%27s_method). This in itself was a very time consuming task, and required a lot of research. Along with the above link, I found the following ![YouTube Video](https://www.youtube.com/watch?v=gNb-H50zmRY) a great source of information to fully understand this method. ![Stack overflow](https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm) also gives an excellent overview from a progmamming point of view of implementing the newton method in the Python programming language.
+
+Ultimately, to find the square root of a positive floating point number required implementing the mathematical formula which has being derived to approximate the square root of any positive number.
+
+A while loop has being used to ensure that a positive number(n) is entered, and a try/catch block is used to ensure that the program can deal with negitive numbers and strings. The program is designed to ask the user for the number of iterations(i) that they would like to approximate the square root to. The more iterations the more accurate 
+
 ![Week6-tasks](Week6-tasks.PNG)
 
 <details>

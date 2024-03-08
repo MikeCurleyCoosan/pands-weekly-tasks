@@ -10,11 +10,14 @@
 * [Week 04 - Collats](#week-04---collatz)
 * [Week 05 - Weekday](#week-05---weekday)
 * [Week 06 - Square root](#week-06---squareroot)
+* [Week 07 - Es](#week-07---es)
 
 
 ### ***Week 01 - Hello World***
 
 The Hello World program is a traditional first step when learing a new programming language. It allows us to confirm that we have downloaded and setup the tools that we will require over the duration of the course of study, such as cmder and VScode. We created a simple program called helloWorld.py, which basically output the words "Hello World" in the terminal window once the program was run.
+
+![Week1-tasks](Images/Week1-tasks.PNG)
 
 - - - -
 ### ***Week 02 - Bank***
@@ -25,6 +28,13 @@ The Hello World program is a traditional first step when learing a new programmi
 >1. Prompt the user and read in two money amounts (in cent).
 >2. Add the two amounts.
 >3. Print out the amount in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
+
+![Week2-tasks](Images/Week2-tasks.PNG)
+
+<details>
+            <summary>Running the program</summary>
+
+<p>
 
 ```
 $ python bank.py
@@ -39,6 +49,10 @@ Terminal Output:
 The sum of these is €2.45
 ```
 
+</p>
+
+</details>
+
 - - - - 
 ### ***Week 03 - Accounts***
 
@@ -46,6 +60,13 @@ The sum of these is €2.45
 >the last 4 characters (with the other other characters replaced with Xs).
 >Write a python program called accounts.py that reads in a 10 character account number and outputs the
 >account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
+
+![Week3-tasks](Images/Week3-tasks.PNG)
+
+<details>
+            <summary>Running the program</summary>
+
+<p>
 
 ```
 $ python accounts.py
@@ -58,6 +79,10 @@ Terminal Output:
 ```
 xxxxxx7890
 ```
+
+</p>
+
+</details>
 
 - - - - 
 
@@ -73,6 +98,7 @@ xxxxxx7890
             <summary>Running the program</summary>
 
 <p>
+
 ```
 $ python collatz.py
 ```
@@ -84,7 +110,6 @@ Terminal Output:
 ```
 10 5 16 8 4 2 1
 ```
-
 </p>
 
 </details>
@@ -98,7 +123,7 @@ Terminal Output:
 >Write a program that outputs whether or not today is a weekday. The program should be called weekday.py
 >Search the web to find out how you work out what day it is in python
 
-The [datetime module](https://docs.python.org/3/library/datetime.html#module-datetime) was used in order to manipulate the date and time in this programme. A good reference on using the module to manipulate the date and time can be found on the [w3resourse.com](#https://www.w3resource.com/python-exercises/ python-basic-exercise-3.php) website. The program does not require any input from the user, it determines the current date, and then determines what day of the week it is from this. The module can return the current day in various forms, but I have chosen to return the day using its full Weekday name. An if statement then determines whether the day is a weekday or a day of the weekend. The program has been tested on a weekday and during the weekend to ensure that it works in both cases.
+The [datetime module](https://docs.python.org/3/library/datetime.html#module-datetime) was used in order to manipulate the date and time in this programme. A good reference on using the module to manipulate the date and time can be found on the [w3resourse.com](https://www.w3resource.com/python-exercises/python-basic-exercise-3.php) website. The program does not require any input from the user, it determines the current date, and then determines what day of the week it is from this. The module can return the current day in various forms, but I have chosen to return the day using its full Weekday name. An if statement then determines whether the day is a weekday or a day of the weekend. The program has been tested on a weekday and during the weekend to ensure that it works in both cases.
 
 ![Week5-tasks](Images/Week5-tasks.PNG)
 

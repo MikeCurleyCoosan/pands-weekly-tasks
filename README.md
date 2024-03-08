@@ -109,13 +109,12 @@ It is the Weekend, yah!
 
 - - - - 
 
-
 ### ***Week 06 - Squareroot***
 
 >Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 >You should create a function called sqrt() that does this.
 
-In order to be able to complete this program, we had to become familiar with the [Newton Method](https://en.wikipedia.org/wiki/Newton%27s_method). This in itself was a very time consuming task, and required a lot of research. Along with the above link, I found the following ![YouTube Video](https://www.youtube.com/watch?v=gNb-H50zmRY) a great source of information to fully understand this method. ![Stack overflow](https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm) also gives an excellent overview from a progmamming point of view of implementing the newton method in the Python programming language.
+In order to be able to complete this program, we had to become familiar with the [Newton Method](https://en.wikipedia.org/wiki/Newton%27s_method). This in itself was a very time consuming task, and required a lot of research. Along with the above link, I found the following [YouTube Video](https://www.youtube.com/watch?v=gNb-H50zmRY) a great source of information to fully understand this method. [Stack overflow](https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm) also gives an excellent overview from a progmamming point of view of implementing the newton method in the Python programming language.
 
 Ultimately, to find the square root of a positive floating point number required implementing the mathematical formula which has being derived to approximate the square root of any positive number.
 
@@ -137,6 +136,37 @@ Please enter a positive number: 14.5
 Terminal Output:
 ```
 The square root of 14.5 is approx. 3.8
+```
+
+</p>
+
+</details>
+
+- - - - 
+
+
+### ***Week 07 - Es***
+
+>WWrite a program that reads in a text file and outputs the number of e's it contains.
+>The program should take the filename from an argument on the command line.
+
+This program has been designed to read a text file called by the user from the command line. In order to do this we have made the assumption that the file will be in the same directory as the program that is reaing the number of 'e's it contains. I have downloaded a copy of Dante's Divine Comedy and added this to the same diretory as the program for testing purposes. This file is saved as DivineComedy-Dante.txt. The [sys](https://docs.python.org/3/library/sys.html) module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available. The submodule sys.argv deals with command line arguments passed to a Python script. The sys.argv[0] contains the python script name, and therefore the text filename needs to be held in the second argument sys.argv[1].
+
+
+
+![Week7-tasks](Week7-tasks.png)
+
+<details>
+            <summary> Running the program</summary>
+<p>
+           
+```
+$ python es.py DivineComedy-Dante.txt
+```
+
+Terminal Output:
+```
+The file DivineComedy-Dante.txt contains 8334 'e's
 ```
 
 </p>

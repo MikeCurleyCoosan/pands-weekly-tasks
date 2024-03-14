@@ -39,5 +39,6 @@ plt.title('Normal Distribution and h(x) = x^3', fontdict=font1)
 plt.xlabel('x', fontdict=font2)
 plt.ylabel('h(x)= x^3', fontdict=font2)
 plt.grid(color = 'c', linestyle = '--', linewidth = 1)
+plt.savefig('normal_distribution_and_x_cubed.png')
 plt.show()
 

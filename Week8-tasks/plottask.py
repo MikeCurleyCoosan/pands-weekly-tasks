@@ -26,14 +26,18 @@ print(x_values)
 y_values = x_values * x_values * x_values
 print(y_values)
 
+#Set the font styles
+font1 = {'family': 'serif', 'color': 'blue' , 'size':20}
+font2 = {'family': 'serif', 'color': 'darkred' , 'size':15}
+
 
 #Plot the normal distribution and the function h(x) = x^3 on the same set of axes
 plt.hist(normal_distribution, label="Normal Distribution", edgecolor="black")
 plt.plot(x_values, y_values, label="h(x) = x^3")
 plt.legend()
-plt.title('Normal Distribution and h(x) = x^3')
-plt.xlabel('x')
-plt.ylabel('h(x)= x^3')
-plt.grid()
+plt.title('Normal Distribution and h(x) = x^3', fontdict=font1)
+plt.xlabel('x', fontdict=font2)
+plt.ylabel('h(x)= x^3', fontdict=font2)
+plt.grid(color = 'c', linestyle = '--', linewidth = 1)
 plt.show()
 

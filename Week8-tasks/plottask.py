@@ -9,8 +9,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+#Setting up the variables
+mean = 5
+std_dev = 2
+number_of_values = 1000
+
 #Create an array of 1000 values with a mean of 5 and a standard deviation of 2
-normal_distribution = np.random.normal(5, 2, 1000)
+normal_distribution = np.random.normal(loc=mean, scale=std_dev, size=number_of_values)
 print(normal_distribution)
 
 #Create an array of x values from 0 to 10
@@ -26,6 +31,9 @@ print(y_values)
 plt.hist(normal_distribution, label="Normal Distribution", edgecolor="black")
 plt.plot(x_values, y_values, label="h(x) = x^3")
 plt.legend()
+plt.title('Normal Distribution and h(x) = x^3')
+plt.xlabel('x')
+plt.ylabel('h(x)= x^3')
 plt.grid()
 plt.show()
 

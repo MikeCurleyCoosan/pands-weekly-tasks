@@ -26,5 +26,6 @@ print(y_values)
 plt.hist(normal_distribution, label="Normal Distribution", edgecolor="black")
 plt.plot(x_values, y_values, label="h(x) = x^3")
 plt.legend()
+plt.grid()
 plt.show()
 

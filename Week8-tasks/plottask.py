@@ -21,10 +21,10 @@ print(x_values)
 y_values = x_values * x_values * x_values
 print(y_values)
 
-log_y_values = math.log(y_values)
 
 #Plot the normal distribution and the function h(x) = x^3 on the same set of axes
 plt.hist(normal_distribution, label="Normal Distribution", edgecolor="black")
+plt.plot(x_values, y_values, label="h(x) = x^3")
 plt.legend()
 plt.show()
 

@@ -13,6 +13,7 @@
 * [Week 05 - Weekday](#week-05---weekday)
 * [Week 06 - Square root](#week-06---squareroot)
 * [Week 07 - Es](#week-07---es)
+* [Week 08 - Plottask](#week-08---plottask)
 
 
 ### ***Week 01 - Hello World***
@@ -240,3 +241,15 @@ The file DivineComedy-Dante.txt contains 8334 'e's
 </details>
 
 - - - - 
+
+### ***Week 08 - Plottask***
+
+>Write a program called plottask.py that displays:
+>
+> - a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
+> - and a plot of the function  h(x)=x3 in the range 0 to 10, 
+>
+>on the one set of axes.
+
+
+- - - -

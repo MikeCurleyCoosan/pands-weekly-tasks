@@ -12,7 +12,7 @@ length_of_input = 0
 #Run the program until the user enters a 10 digit account number
 while True and length_of_input < 10:
     #Ask the user for a 10 digit account number
-    account_number = input("Please enter a valid 10 digit accound number ")
+    account_number = input("Please enter a 10 digit accound number ")
     #Check if the input is an integer
     try:
         #If the input is an integer, convert it to a string and get the length of the string

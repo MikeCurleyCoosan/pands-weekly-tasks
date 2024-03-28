@@ -48,6 +48,6 @@ plt.title('Normal Distribution and h(x) = x^3', fontdict=font1) #Title the plot,
 plt.xlabel('x', fontdict=font2)
 plt.ylabel('h(x)= x^3', fontdict=font2)
 plt.grid(color = 'c', linestyle = '--', linewidth = 1) #Add a grid to the plot, set the color to cyan, the line style to dashed and the line width to 1
-plt.savefig('normal_distribution_and_x_cubed.png') #Save the plot to a file
+plt.savefig('../Images/normal_distribution_and_x_cubed.png') #Save the plot to a file
 plt.show()
 

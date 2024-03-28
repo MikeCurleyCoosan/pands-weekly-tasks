@@ -34,6 +34,7 @@
 
 ## Table of Contents.
 
+* [Get Started](#get-started)
 * [Week 01 - Hello World](#week-01---hello-world)
 * [Week 02 - Bank](#week-02---bank)
 * [Week 03 - Accounts](#week-03---accounts)
@@ -42,6 +43,27 @@
 * [Week 06 - Square root](#week-06---squareroot)
 * [Week 07 - Es](#week-07---es)
 * [Week 08 - Plottask](#week-08---plottask)
+
+### Get Started
+
+
+1. Clone the repository to your local machine. 
+
+```sh
+git https://github.com/MikeCurleyCoosan/pands-weekly-tasks.git
+
+```
+2. Download and install [Anaconda](https://www.anaconda.com/). Anaconda comes with its own set of pre-installed data science packages and tools, making it convenient for
+beginners to set up their environment quickly. The pre-installed packages that are required to work with the project are [Pandas](https://pandas.pydata.org/), [NumPy]
+(https://numpy.org/) and [Matplotlib](https://matplotlib.org/).
+
+3. Download and install [Visual Studio Code](https://code.visualstudio.com/). Visual Studio Code is a code editor with support for development operations like debugging,
+task running, and version control.
+
+4. Download and install the latest version of [Git](https://git-scm.com/). Git is a free and open source version control system designed to handle everything from small 
+very large projects with speed and efficiency.
+
+5. Navigate to the project directory in VS Code
 
 
 ### ***Week 01 - Hello World***

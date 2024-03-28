@@ -65,7 +65,7 @@ very large projects with speed and efficiency.
 5. Navigate to the project directory in VS Code
 
 
-### ***Week 01 - Hello World***
+### ***Week 01 - [Hello World](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/helloWorld.py)***
 
 The Hello World program is a traditional first step when learing a new programming language. It allows us to confirm that we have downloaded and setup the tools that we will require over the duration of the course of study, such as [cmder](https://cmder.app/) and [Visual Studio Code](https://code.visualstudio.com/). We created a simple program called helloWorld.py, which basically output the words "Hello World" in the terminal window once the program was run.
 

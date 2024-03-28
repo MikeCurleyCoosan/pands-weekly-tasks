@@ -280,4 +280,20 @@ The file DivineComedy-Dante.txt contains 8334 'e's
 >on the one set of axes.
 
 
+![Week8-tasks](../Images/normal_distribution_and_x_cubed.png)
+
+
+<details>
+            <summary> Running the program</summary>
+<p>
+           
+```
+$ python plottask.py
+```
+</p>
+
+</details>
+
+
+
 - - - -

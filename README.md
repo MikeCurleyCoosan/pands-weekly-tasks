@@ -72,7 +72,7 @@ The Hello World program is a traditional first step when learing a new programmi
 ![Week1-tasks](Images/Week1-tasks.PNG)
 
 - - - -
-### ***Week 02 - Bank***
+### ***Week 02 - [Bank](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/Week2-tasks/bank.py)***
 
 >When Banks are storing currency figures, they store them as integers (usually in cent).This is to avoid rounding errors. 
 >Write a program called bank.py
@@ -110,7 +110,7 @@ The sum of these is €2.45
 </details>
 
 - - - - 
-### ***Week 03 - Accounts***
+### ***Week 03 - [Accounts](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/Week3-tasks/accounts.py)***
 
 >Bank account numbers can be stored as 10 character strings, for security reasons some applications only display 
 >the last 4 characters (with the other other characters replaced with Xs).
@@ -142,7 +142,7 @@ xxxxxx7890
 
 - - - - 
 
-### ***Week 04 - Collatz***
+### ***Week 04 - [Collatz](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/Week4-tasks/collatz.py)***
 
 >Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
 >At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
@@ -184,7 +184,7 @@ Terminal Output:
 
 - - - - 
 
-### ***Week 05 - Weekday***
+### ***Week 05 - [Weekday](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/Week5-tasks/Weekday.py)***
 
 >Write a program that outputs whether or not today is a weekday. The program should be called weekday.py
 >Search the web to find out how you work out what day it is in python
@@ -225,7 +225,7 @@ It is the Weekend, yah!
 
 - - - - 
 
-### ***Week 06 - Squareroot***
+### ***Week 06 - [Squareroot](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/Week6-tasks/squareroot.py)***
 
 >Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 >You should create a function called sqrt() that does this.
@@ -261,7 +261,7 @@ The square root of 14.5 is approx. 3.8
 - - - - 
 
 
-### ***Week 07 - Es***
+### ***Week 07 - [Es](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/Week7-tasks/es.py)***
 
 >Write a program that reads in a text file and outputs the number of e's it contains.
 >The program should take the filename from an argument on the command line.
@@ -293,7 +293,7 @@ The file DivineComedy-Dante.txt contains 8334 'e's
 
 - - - - 
 
-### ***Week 08 - Plottask***
+### ***Week 08 - [Plottask](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/Week8-tasks/plottask.py)***
 
 >Write a program called plottask.py that displays:
 >

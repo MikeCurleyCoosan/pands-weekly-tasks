@@ -55,7 +55,7 @@ _You can find out more about writing in MarkDown in [GitHub Documentation](https
 * [Week 07 - Es](#week-07---es)
 * [Week 08 - Plottask](#week-08---plottask)
 
-## *** About this project***
+## ***About this project***
 
 This repository contains the weekly tasks that were undertaken as part of the 'Programming and Scripting' Module in the Higher Diploma in Data Analytics course at ATU Galway in the year 2024.
 

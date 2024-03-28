@@ -79,6 +79,10 @@ very large projects with speed and efficiency.
 
 5. Navigate to the project directory in VS Code
 
+6. Navigate to the folder of the weekly task you would like to run.
+
+7. Copy the script in the "Running the program" section on this page and paste into the terminal window in VS Code. The program should now run.
+
 
 ### ***Week 01 - [Hello World](https://github.com/MikeCurleyCoosan/pands-weekly-tasks/blob/main/helloWorld.py)***
 

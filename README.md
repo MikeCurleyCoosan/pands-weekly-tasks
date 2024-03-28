@@ -54,6 +54,7 @@ _You can find out more about writing in MarkDown in [GitHub Documentation](https
 * [Week 06 - Square root](#week-06---squareroot)
 * [Week 07 - Es](#week-07---es)
 * [Week 08 - Plottask](#week-08---plottask)
+* [References](#references)
 
 ## ***About this project***
 
@@ -285,7 +286,7 @@ The square root of 14.5 is approx. 3.8
 >Write a program that reads in a text file and outputs the number of e's it contains.
 >The program should take the filename from an argument on the command line.
 
-This program has been designed to read a text file called by the user from the command line. In order to do this we have made the assumption that the file will be in the same directory as the program that is reaing the number of 'e's it contains. I have downloaded a copy of Dante's Divine Comedy and added this to the same diretory as the program for testing purposes. This file is saved as DivineComedy-Dante.txt. The [sys module](https://docs.python.org/3/library/sys.html) module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available. The submodule sys.argv deals with command line arguments passed to a Python script. The sys.argv[0] contains the python script name, and therefore the text filename needs to be held in the second argument sys.argv[1]. I found the [Tutorials Point](#https://www.tutorialspoint.com/python/python_command_line_arguments.htm) website an invaluable resourse when completing this task. The website describe the sys module in great details.
+This program has been designed to read a text file called by the user from the command line. In order to do this we have made the assumption that the file will be in the same directory as the program that is reaing the number of 'e's it contains. I have downloaded a copy of Dante's Divine Comedy and added this to the same diretory as the program for testing purposes. This file is saved as DivineComedy-Dante.txt. The [sys module](https://docs.python.org/3/library/sys.html) module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter. It is always available. The submodule sys.argv deals with command line arguments passed to a Python script. The sys.argv[0] contains the python script name, and therefore the text filename needs to be held in the second argument sys.argv[1]. I found the [Tutorials Point](https://www.tutorialspoint.com/python/python_command_line_arguments.htm) website an invaluable resourse when completing this task. The website describe the sys module in great details.
 
 We need to import the sys module into our program in order to use its functionality. 
 
@@ -336,6 +337,32 @@ $ python plottask.py
 
 </details>
 
-
-
 - - - -
+
+### References
+
+- Reference #1: https://www.w3schools.com/python/python_casting.asp
+- Reference #2: https://stackoverflow.com/questions/183853/what-is-the-difference-between-and-when-used-for-division
+- Reference #3: https://realpython.com/python-modulo-operator/
+- Reference #4: https://realpython.com/python-strings/#string-operators
+- Reference #5: https://en.wikipedia.org/wiki/Collatz_conjecture
+- Reference #6: https://www.educative.io/answers/how-to-generate-the-collatz-sequence-in-python
+- Reference #7: https://medium.com/@chakshugupta774/exploring-the-collatz-conjecture-with-python-7c5d9f31d233
+- Reference #8: https://docs.python.org/3/library/datetime.html#module-datetime
+- Reference #9: https://note.nkmk.me/en/python-datetime-now-today/
+- Reference #10: https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python#:~:text=date%20using%20datetime.-,datetime.,
+- Reference #11: https://ioflood.com/blog/python-get-current-date/#:~:text=To%20get%20the%20current%20date%20in%20Python%2C%20you%20can%20use,function%20from%20the%20datetime%20module.
+- Reference #12: https://en.wikipedia.org/wiki/Newton%27s_method
+- Reference #13: https://www.youtube.com/watch?v=gNb-H50zmRY
+- Reference #14: https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm
+- Reference #15: https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
+- Reference #16: https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html#newton-s-method
+- Reference #17: https://docs.python.org/3/library/sys.html
+- Reference #18: #https://www.tutorialspoint.com/python/python_command_line_arguments.htm
+- Reference #19: https://realpython.com/working-with-files-in-python/
+- Reference #20: https://www.youtube.com/watch?v=rJCl7t3IIbA
+- Reference #21: https://www.w3schools.com/python/numpy/numpy_random_normal.asp
+- Reference #22: https://www.geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib/
+- Reference #23: https://realpython.com/how-to-use-numpy-arange/
+
+

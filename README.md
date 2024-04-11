@@ -1,5 +1,7 @@
 # pands-weekly-tasks 2023
 
+![Banner Image](./Images/Pands_Weekly_Tasks.png)
+
 ## Student Name: Michael Curley
 
 ![ATU Image](https://www.atu.ie/sites/default/files/styles/homepage_hero/public/2022-03/GMIT-Galway-Campus.jpg?itok=JshYufwh)

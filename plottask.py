@@ -41,7 +41,6 @@ font2 = {'family': 'serif', 'color': 'darkred' , 'size':15}
 
 
 #Plot the normal distribution and the function h(x) = x^3 on the same set of axes
-
 fig, ax1 = plt.subplots() #Create a figure and axis object
 
 
@@ -55,7 +54,9 @@ ax2.plot(x_values, y_values, color='red', label="h(x) = x^3")
 ax2.set_ylabel('h(x)= x^3', fontdict=font2) #Set the y axis label
 ax2.grid(color = 'r', linestyle = '--', linewidth = 1) #Add a grid to the plot, set the color to cyan, the line style to dashed and the line width to 1
 
-fig.legend(loc='upper right', bbox_to_anchor=(0.43, 0.95)) #Show the legend
+fig.legend(loc='upper right', bbox_to_anchor=(0.43, 0.9)) #Show the legend
+
+ax1.set_title(label="Normal Distribution and h(x) = x^3", fontdict=font1) #Set the title of the plot
 
 fig.tight_layout(pad=1.0) #Add some padding to the subplot
 

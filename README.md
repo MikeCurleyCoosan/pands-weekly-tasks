@@ -139,6 +139,12 @@ The sum of these is €2.45
 >Write a python program called accounts.py that reads in a 10 character account number and outputs the
 >account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 
+This program was re-written multiple times to give the final program presented here. A number of issues were encountered while writting this program. Firstly, if the bank account number contained leading zeros, such as 000******, these leading zeros were being removed by python, so this meant that even if you entered a 10 digit account number as above, it was being recognised as a 7 digit number and you were being prompted "The account number is less than 10 digits long, please enter a valid 10 digit account number". This problem was overcome by casting the account number entered to a string value, and getting the length of this string, after firstly checking that the number entered was in fact an integer value.
+
+A second problem encountered when creating this program was that the program was not checking if floating point numbers or strings were being entered at the command prompt by the user. A try/except statement was added to the program later to ensure that only integers would be accepted by the program. If the user enters a floating point number, they are prompted "Input is a float number, account numbers should contain integers only". If a string value was entered they were prompted "This is not a number, its a string. Please enter a valid 10 digit account number.
+
+An if statement was used to ensure that the account number entered was at least 10 numbers in length. This can be changed to accept numbers of any length at the users disgression.
+
 ![Week3-tasks](Images/Week3-tasks.PNG)
 
 <details>

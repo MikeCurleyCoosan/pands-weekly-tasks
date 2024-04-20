@@ -41,13 +41,24 @@ font2 = {'family': 'serif', 'color': 'darkred' , 'size':15}
 
 
 #Plot the normal distribution and the function h(x) = x^3 on the same set of axes
-plt.hist(normal_distribution, label="Normal Distribution", edgecolor="black") #Plot the normal distribution, set the edge color to black
-plt.plot(x_values, y_values, label="h(x) = x^3")
-plt.legend() #Show the legend
-plt.title('Normal Distribution and h(x) = x^3', fontdict=font1) #Title the plot, set the font style
-plt.xlabel('x', fontdict=font2)
-plt.ylabel('h(x)= x^3', fontdict=font2)
-plt.grid(color = 'c', linestyle = '--', linewidth = 1) #Add a grid to the plot, set the color to cyan, the line style to dashed and the line width to 1
-plt.savefig('../Images/normal_distribution_and_x_cubed.png') #Save the plot to a file
+
+fig, ax1 = plt.subplots() #Create a figure and axis object
+
+
+ax1.hist(normal_distribution, label="Normal Distribution", edgecolor="black") #Plot the normal distribution, set the edge color to black
+ax1.set_xlabel('Normal Distribution', fontdict=font2) #Set the x axis label
+ax1.set_ylabel('Frequency', fontdict=font2) #Set the y axis label
+ax1.grid(color = 'c', linestyle = '--', linewidth = 1) #Add a grid to the plot, set the color to cyan, the line style to dashed and the line width to 1
+
+ax2 = ax1.twinx() #Create a second y axis
+ax2.plot(x_values, y_values, color='red', label="h(x) = x^3")
+ax2.set_ylabel('h(x)= x^3', fontdict=font2) #Set the y axis label
+ax2.grid(color = 'r', linestyle = '--', linewidth = 1) #Add a grid to the plot, set the color to cyan, the line style to dashed and the line width to 1
+
+fig.legend(loc='upper right', bbox_to_anchor=(0.43, 0.95)) #Show the legend
+
+fig.tight_layout(pad=1.0) #Add some padding to the subplot
+
+plt.savefig('Images/normal_distribution_and_x_cubed.png') #Save the plot to a file
 plt.show()
 

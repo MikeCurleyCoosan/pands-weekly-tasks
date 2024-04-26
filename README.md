@@ -1,4 +1,3 @@
-# pands-weekly-tasks 2023
 
 ![Banner Image](./Images/Pands_Weekly_Tasks.png)
 
@@ -330,6 +329,15 @@ The file DivineComedy-Dante.txt contains 8334 'e's
 >
 >on the one set of axes.
 
+This task was assigned as an introduction to [matplotlib](https://matplotlib.org/), which is a plotting library for the Python programming language, and is usually used in conjunction with its numerical mathematics extension [NumPy](https://numpy.org/). Numpy is a library for the Python programming language, which allows us to work with large multi-dimensional arrays and matrices. It also supplies a large collection of high-level mathematical functions to operate on these arrays. [NumPy Wikipedia](https://en.wikipedia.org/wiki/NumPy)
+
+Both these libraries were imported so that we could use them for our purposes. To calculated 1000 values with a normal distribution with a mean of 5 and a standard deviation of 2, the Numpy [random.normal()](https://numpy.org/devdocs/reference/random/generated/numpy.random.normal.html) function was called upon. This function allows us to draw random samples from a normal (Gaussian) distribution where three parameters are passed into the function. These three parameters are loc, scale and size, where loc=mean and the scale=standard deviation and size=number of samples required. If no size attribute is pased into the function just one value is returned to the user. The mean is the 'centre' of our distribution and the standard deviation is the 'spread' or 'width' of the distribution.
+
+The matplotlib.pyplot library was then used to plot this distribution as a histogram, with the default number of bins being used (default for Matplotlib is 10). We used the object orientated approach here, to create an instance of the subplots class. We applied variable names fig, ax to the figure and axes instances created when an instance of the subplots class is called. Various functions are then availabe to us and for our purposes we used the ax.set_xlabel, ax.set_ylabel, and ax.grid functions to improve the appearance of our plots.
+
+To create an array of values for h(x) = x^3 in the range 0-10, the Python range function range(0,11) was used to create x_values between 0 and 10. These values were passed to the Numpy array function np.array() to create a Numpy Array of values between 0 and 10. We then created the x^3 array by creating another variable y_values and storing the values y_values = x_values * x_values * x_values in this array. We simply plotted this using the Matplotlib plot() function. 
+
+As both plots had to be plotted on the one axis when the h(x) = x^3 function was plotted it skewed the histogram plot. I decided therefore to use the ax2 = ax1.twinx() function available to us in Matplotlib which creates a second y-axis and allows us to view both plots on the one Axis in a much nicer way.
 
 ![Week8-tasks](Images/normal_distribution_and_x_cubed.png)
 

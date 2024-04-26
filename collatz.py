@@ -5,15 +5,46 @@
 #Modification: After looking into lists on the RealPython website and the DataCamp website, I have modified this program
 #to include a list.
 
-number = int(input('Please enter a positive number: ')) #Ask user for positive number 
-allNumbers = [] #Create a list to store the numbers
+#Create a list to store the numbers
+allNumbers = [] 
 
-if number < 0: #If number given is not positive
-    print('That is not a positive number, Please try again: ') #Tell the user the number entered is not positive
-    number = int(input('Please enter a positive number: ')) # And ask again for positive number
+number = input('Please enter a positive number: ')#Ask user for positive number
 
+#Run the program until the user enters a positive number
+while True:
+    #Check if the input is an integer
+    try: 
+        #If the input is an integer,  
+        number = int(number) #Ask user for positive number 
+        #Check if the number is positive
+        if number < 0:
+            #If the number is not positive, ask the user for a positive number
+            print('That is not a positive number, Please try again: ') 
+            #Aske the user again for a positive number
+            number = input('Please enter a positive number: ')
+            continue
+    #If the input is not an integer
+    except ValueError:
+        #Check if the value entered is a float
+        try: 
+            #If the input is a float, inform the user that only positive integers are accepted  
+            val = float(number)
+            print("Input is an float number, only positive integers are accepted.")
+            #Ask the user for a valid number
+            number = input('Please enter a positive number: ')
+            continue
+        #If the input is a string
+        except ValueError:
+            #If the input is a string, inform the user that only positive integers are accepted
+            print("This is not a number, its a string. Only positive integers are accepted")
+            number = input('Please enter a positive number: ')
+            continue
+    break
+        
+#Add the number to the list
 allNumbers.append(number) #This is the first number in the collatz series
 
+#Run the program until the number reaches 1
 while number !=1: #The series ends when it reaches 1
     if (number % 2) == 0: #Check if number is even
         number = int(number/2) #If even divide by two and reassign to number

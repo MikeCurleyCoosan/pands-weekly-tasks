@@ -36,12 +36,17 @@ while True:
         #If the inputs are integers and greater than zero
         else:
             #Add the two numbers
-            result = (number_as_int + number_as_int2)/100 # Not the recommended way to do this but we have ensured that the input is an integer
-                                                            #Before adding the try catch block I used the recommended method which is commented out below
+            result = (number_as_int + number_as_int2)/100 # Not the recommended way to do this as the floating point numbers generated are prone to inaccuracies
             
             answer = format(result,".2f") #Format the result to two decimal places              
             #Print the result
             print(f"The sum of these is €{answer}")
+
+            #The following is the recommended way to do division in Python. This is not prone to floating point inaccuracies
+            c = ((number_as_int + number_as_int2) // 100)
+            d = ((number_as_int + number_as_int2) % 100)
+
+            answer2 = print('The sum of these is €{}.{}'.format(c,d))
 
         break;
     #If the input is not an integer the following code will run
@@ -60,13 +65,4 @@ while True:
             print("At least one of those numbers is a string, please enter a valid number")
             continue
 
-
-#A second solution not using floats which are prone to inaccuracy. Solution taken from The python tutorial.
-
-#Disgard the fractional part using floor division
-#c = ((a + b) // 100)
-
-#Use the % operator to the the remainder of the division
-#d = ((a+b) % 100)
-
-#answer2 = print('The sum of these is €{}.{}'.format(c,d))
+#Finito
